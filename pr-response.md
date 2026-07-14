@@ -50,3 +50,5 @@ Manual test steps:
 4. Send `GET /watchlist/<user_id>` and confirm the film appears in the list.
 5. Repeat the same add request and confirm the API returns `409` for a duplicate.
 6. Try a nonexistent film UUID and confirm the API returns `404`.
+
+Git log screenshot: [git-log-snapshot.png](git-log-snapshot.png)
